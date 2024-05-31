@@ -4,7 +4,7 @@
 
  <head> 
        <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <link rel="shortcut icon" href="favicon.png">
        <link rel="stylesheet" href="style.css">
        <title> The king of the pernil</title>
@@ -18,7 +18,6 @@
         <h1>The king of the pernil</h1>
         </div>
         </header>
-       <br>
        <div>
         <h3>¡Bienvenidos a nuestra página!</h3>
        </div>
@@ -27,74 +26,60 @@
 
         <nav class="navegación">
 
-         <a href="#">Inicio</a> 
-         <a href="#= id=Nosotros">Acerca de nosotros</a>
-         <a href="#">Servicios</a>
-         <a href="#">Presupuestos</a>
+         <a href="#section1">Inicio</a> 
+         <a href="#section2">Servicios</a>
+         <a href="#section3">Acerca de nosotros</a>
+         <a href="#section4">Desc. del día</a>
+         <a href="#section5">Contáctanos</a>
         </nav>
 
        <!--seccion 1-->
-      <section  class="section1">
+      <section  class="section" id="section1">
         <div>
-          <a>
-          <img src="image/king.jpg" alt="" width="700" height="500">
-          </a>
+          <article><p>SERVICIOS GASTRONÓMICOS:<br>
+            Calidad, sabor y eficiencia se combinan en nuestro servicio de catering institucional, donde cada plato es una expresión de dedicación y profesionalismo.</p>
+        </article>
+          <img src="image/king.jpg" alt= with="700" height="600" >
           </div>
       </section>
 
       <!--seccion 2 -->
-      <section class="section2">
+      <section class="section" id="section2">
 
-        <spain>
           <div>
-           <img src="image/carrusel1.jpg" alt="" with="300" height="300"> <br>Buenos momentos</a> 
+           <img src="image/carrusel1.jpg" alt= with="300" height="300"> <br>Buenos momentos</a> 
           </div>
-        </spain>
-        <spain>
+
           <div>
-            <img src="image/carrusel2.jpg" width="300" height="300"><br> Compartir</a>
-          </div>
-        <sapin>
-          <div>
-            <img src="image/carrusel3.jpg" alt="" width="300" height="300"><br> Emociones</a>
+            <img src="image/carrusel3.jpg" alt= width="300" height="300"><br> Emociones</a>
           </div> 
-        </spain>
-      
-        <aside>
-          <div>
-          <fieldset>
-            <legend><h3>Dirección :</h3></legend>
-            <h5>San Nicolas de los arroyos 80</h5>
-            <h5> Gral. Rodriguez.</h5>
-            <h5>Bs.As, Argentina</h5> 
-          </fieldset>
-          </div>
-        </aside>
         
       </section>
 
 
       <!--seccion 3-->
-      <section class="section3">
+      <section class="section" id="section3">
        <p> <strong> Nosotros: </strong>
-        <br>Somos una empresa familiar la cual comenzo en el 2013 en Moreno (Bs. As.) agazajando a  los más intimos, luego decidió ir más alla trasladonse a un nuevo lugar en General Rodríguez (Bs. As.) para compartir con nuevos clientes momentos únicos y mágicos que dejan cada evento.
+         Somos una empresa familiar la cual comenzo en el 2013 en Moreno (Bs. As.) agazajando a  los más intimos, luego decidió ir más alla trasladonse a un nuevo lugar en General Rodríguez (Bs. As.) para compartir con nuevos clientes momentos únicos y mágicos que dejan cada evento.
           Contamos con nuestros equipos de camareros/as para cada evento, realizamos lunch, catering, comidas al disco, barras de tragos, y muchos más...
           Nos caracterizamos por trabajar en equipo, adaptarnos al presupuesto de cada cliente y ayudarte a que tu evento sea maravilloso, sabemos lo importante que es cada uno y lo valioso que es compartir esos momentos! 
           Nos satisface cuando vemos a nuestros cliente felices y nos recomiendan día a día!
           También tenemos la opción de elaborar toda la comida sin contratar el personal para la atención.
           Te asesoramos en lo que necesites y te ayudamos a armar tu evento, contacte con nosotros no te vas a arrepentir!</p>
-         <br>
-         <div>
-          <a href="image/mesa.png"> Sabemos lo que necesitas</a>
+          <article>
+          <div>
+           <a href="image/mesa.png"> Sabemos lo que necesitas</a>
          </div> 
-      </section>
+        </article>
+         </section>
+      
 
       <!--seccion 4-->
-      <section class=" section4">
-        <contenedor>
+       <section class="section" id="section4">
          <div>
           <h2>Calendario de promos</h2>
          </div>
+         
          <div>
            <table>
             <tr>
@@ -126,31 +111,48 @@
             </tr> 
           </table>
          </div>
-        </contenedor>
+       </section> 
 
-        <div><h2>Presupuesto</h2>
-          <br>
-          <p> Contactate con nosotros</p>
-          <form action class= formulario="">
+      <div>
+        <img src="image/carrusel2.jpg" width="500" height="300"><br> Compartir</a>
+      </div>
+
+     <!--seccion 5-->
+      <section class="section" id="section5">
+        <article>
+        <span>
+        <div><h2>Contáctate con nosotros</h2>
+          <p>Presupuestos</p>
+          <form action class= "formulario" id= "formulary">
             <input type="text" placeholder="Nombre completo">
             <input type="email" placeholder="correo electronico">
             <input type="text" placeholder="asunto">
             <textarea = "name" id="" cols="30" rows="5"  placeholder="mensaje"> </textarea>
             <input type="submit" value="enviar">
           </form>
-        </div>
-         <div>
-          <img src="image/facebook.png" width="20" height="20"> <a href="https://www.facebook.com/Kingofthepernil/" target="_blank">Facebook</a>
-          <img src="image/instagram.png"width="20" height="20"> <a href="https://www.instagram.com/kingofthepernil/" target="_blank">Instagram</a>
-          <img src="image/whatsapp.png" width="20" height="20"> <a href="https://wa.me/message/6P4T422U6HBZN1"target="_blank">whatsapp</a>
-
-        </div>  
+        </span>
+      </article>
+        <article>
+        <fieldset>
+          <legend><h3>Dirección :</h3></legend>
+          <h5>San Nicolas de los arroyos 80</h5>
+          <h5> Gral. Rodriguez.</h5>
+          <h5>Bs.As, Argentina</h5> 
+        </fieldset>
+      </article>
       </section>
 
-  <footer>
-       <p> & copy, todos los derechos reservados 2024 | The king of the pernil. </p>
-  </footer>
   </main>
+  <footer class= "footer" id="pie">
+    <div>
+      <img src="image/facebook.png" width="20" height="20"> <a href="https://www.facebook.com/Kingofthepernil/" target="_blank">Facebook</a>
+      <img src="image/instagram.png"width="20" height="20"> <a href="https://www.instagram.com/kingofthepernil/" target="_blank">Instagram</a>
+      <img src="image/whatsapp.png" width="20" height="20"> <a href="https://wa.me/message/6P4T422U6HBZN1"target="_blank">Whatsapp</a>
 
+    </div>
+    <div>
+       <p> | todos los derechos reservados 2024 | The king of the pernil. </p>
+    </div>   
+  </footer>
  </body>
 </html>
